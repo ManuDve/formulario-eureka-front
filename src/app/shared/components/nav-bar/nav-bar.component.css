@@ -1,0 +1,41 @@
+nav {
+  background-color: var(--secondary-bg);
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: var(--main-transition);
+}
+
+.navbar-brand img {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  aspect-ratio: 1/1;
+}
+
+
+
+.nav-link {
+  cursor: pointer;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+.nav-link {
+  cursor: pointer;
+  color: var(--text-color-1);
+}
+
+.nav-link.active {
+  color: var(--text-color-2);
+}
+
+.nav-link:hover {
+  color: var(--text-color-2);
+}
