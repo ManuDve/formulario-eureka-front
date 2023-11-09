@@ -21,6 +21,10 @@ export class FormularioService {
     )
   }
 
+  getDepartamentoPorId(id: Number) {
+    return this.http.get<Departamento>(this.apiDepartamentosUrl + `/${id}`)
+  }
+
   getDepartamentos():void {
     this.http.get<Departamento[]>(this.apiDepartamentosUrl)
     .subscribe(

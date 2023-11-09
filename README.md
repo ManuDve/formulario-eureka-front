@@ -14,4 +14,4 @@ Este proyecto combina una base de datos el cual almacena personas y distintos de
 4. Clonar este repositorio con `git clone https://github.com/ManuDve/formulario-eureka-front.git`
 5. Ejecutar el comando `npm i` para instalar las dependencias  y luego `ng serve` para iniciar el proyecto.
 6. Acceder con un navegador a través de la URL: [http://localhost:4200/](http://localhost:4200/)
-7. Para testing, acceder a la rama de testing con `git checkout testing`
+7. Para testing con Karma se debe correr el comando `ng test`
