@@ -12,6 +12,6 @@ Este proyecto combina una base de datos el cual almacena personas y distintos de
 2. Instalar la última versión estable de [Node.js 18.18.1](https://nodejs.org/es/download)
 3. Instalar Angular CLI con el comando `npm install -g @angular/cli`
 4. Clonar este repositorio con `git clone https://github.com/ManuDve/formulario-eureka-front.git`
-5. (Opcional) Para testing, cambiar a la rama de testing con `git checkout testing`.
-6. Ejecutar el comando `npm i` para instalar las dependencias  y luego `ng serve` para iniciar el proyecto.
-7. Acceder con un navegador a través de la URL: [http://localhost:4200/](http://localhost:4200/)
+5. Ejecutar el comando `npm i` para instalar las dependencias  y luego `ng serve` para iniciar el proyecto.
+6. Acceder con un navegador a través de la URL: [http://localhost:4200/](http://localhost:4200/)
+7. Para testing, acceder a la rama de testing con `git checkout testing`
