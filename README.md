@@ -1,4 +1,4 @@
-# SuperheroesAngular
+# Formulario Eureka
 
 Este proyecto Angular es una combinación del proyecto de [Formulario-eureka-back](https://github.com/ManuDve/formulario-eureka-back) como Back End.
 
