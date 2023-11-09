@@ -6,11 +6,12 @@ import { FormPersonaComponent } from './components/form-persona/form-persona.com
 import { TablaResultadosComponent } from './components/tabla-resultados/tabla-resultados.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ResultadoPageComponent } from './pages/resultado-page/resultado-page.component';
+import { GraficosResultadosComponent } from './components/graficos-resultados/graficos-resultados.component';
 
 @NgModule({
   imports: [RouterModule, ReactiveFormsModule, CommonModule],
   exports: [MenuInicioComponent, FormPersonaComponent, TablaResultadosComponent],
-  declarations: [MenuInicioComponent, FormPersonaComponent, TablaResultadosComponent, ResultadoPageComponent],
+  declarations: [MenuInicioComponent, FormPersonaComponent, TablaResultadosComponent, ResultadoPageComponent, GraficosResultadosComponent],
   providers: [],
 })
 export class FormModule {
