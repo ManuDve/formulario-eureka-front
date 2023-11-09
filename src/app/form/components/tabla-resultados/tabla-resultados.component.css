@@ -1,0 +1,6 @@
+th, td {
+  background-color: var(--main-bg);
+  border-bottom: 1px solid var(--primary-color-highlight);
+  padding: 2rem;
+}
+

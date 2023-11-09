@@ -1,5 +1,6 @@
 nav {
   background-color: var(--secondary-bg);
+  backdrop-filter: blur(5px);
 }
 
 .navbar-brand {
@@ -8,6 +9,7 @@ nav {
   align-items: center;
   justify-content: center;
   transition: var(--main-transition);
+  font-weight: 700;
 }
 
 .navbar-brand img {
@@ -18,24 +20,20 @@ nav {
 }
 
 
-
-.nav-link {
-  cursor: pointer;
-}
-
 .navbar-brand:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .nav-link {
+  letter-spacing: 1px;
   cursor: pointer;
   color: var(--text-color-1);
 }
 
 .nav-link.active {
-  color: var(--text-color-2);
+  color: var(--primary-color-highlight);
 }
 
 .nav-link:hover {
-  color: var(--text-color-2);
+  color: var(--primary-color-highlight);
 }
